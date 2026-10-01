@@ -9,5 +9,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-*.id_rsa.pub
-id_rsa
+# SSH keys
+id_rsa*
+id_ed25519*
+*.pem
